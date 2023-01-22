@@ -1,6 +1,6 @@
 # Tweet Artist AI
 
-This repo provides the code to create a bot that listens for mentions on Twitter and illustrates the Tweet to which the mention is a reply to. The bot uses the Tweepy library to interact with the Twitter APIs to get tweet information and post tweet on behalf of the bot. It uses the Open AI library to interact with Open AI [Dall-E](https://beta.openai.com/docs/guides/images) model to generate images.
+This repo provides the code to create a bot that listens for mentions on Twitter and illustrates the Tweet to which the mention is a reply to. The bot uses the [Tweepy library](https://docs.tweepy.org/en/stable/index.html) to interact with the Twitter APIs to get tweet information and post tweet on behalf of the bot. It uses the Open AI library to interact with Open AI [Dall-E](https://beta.openai.com/docs/guides/images) model to generate images.
 
 ## Running Locally
 
@@ -14,7 +14,7 @@ This repo provides the code to create a bot that listens for mentions on Twitter
 3. Have an [Open AI developer account](https://openai.com/api/). You get some free credits by default. From here you will need an auth secret to enable your bot.
 4. Install [Python 3.9 (or later)](https://www.python.org/downloads/)
 5. Pip install dependencies including:
-   - [tweepy](https://docs.tweepy.org/en/stable/getting_started.html)
+   - [tweepy]([https://docs.tweepy.org/en/stable/getting_started.html](https://docs.tweepy.org/en/stable/install.html))
    - [openai](https://beta.openai.com/docs/libraries)
 
 ### Run
