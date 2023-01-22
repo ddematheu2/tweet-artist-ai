@@ -24,7 +24,8 @@ openai.api_key = open_ai_key
 
 # Create stream rule for twitter
 handle = "YOUR HANDLE"
-mentionsRule = tweepy.StreamRule(handle + " is:reply has:mentions -from:1611013685820129280 -to:1611013685820129280  ")
+bot_twitter_id = "YOUR BOTS TWITTER ACCOUNT ID"
+mentionsRule = tweepy.StreamRule(handle + " is:reply has:mentions -from:" + bot_twitter_id + " -to:" + bot_twitter_id)
 
 # Call Open AI to generate image
 def illustrate_tweet(tweet_text):
